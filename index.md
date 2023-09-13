@@ -911,17 +911,17 @@ cat_summary(df, categorical)
 
 `>> Observations:`
 
-`   1. Gender appears to be well balanced when it comes to churn`
+`1. Gender appears to be well balanced when it comes to churn`
 
-`   2. While most users are not senior citizen, the churn rate for senior citizen is higher`
+`2. While most users are not senior citizen, the churn rate for senior citizen is higher`
 
-`   3. Those who have a partner or dependents are less likely to churn`
+`3. Those who have a partner or dependents are less likely to churn`
 
-`   4. Customers on monthly contract has very high churn rate as compared to other contracts`
+`4. Customers on monthly contract has very high churn rate as compared to other contracts`
 
-`   5. Customers who make payment via electronic check has high churn rate as compared to other payment methods`
+`5. Customers who make payment via electronic check has high churn rate as compared to other payment methods`
 
-`   6. Overall churn rate is at 26.5%`
+`6. Overall churn rate is at 26.5%`
 
 
 #### 4.2. Analysis of Numerical Variables
@@ -2281,9 +2281,9 @@ check_totalcharges[['tenure', 'TotalCharges', 'MonthlyCharges', 'tc_mc_multiple'
 
 `>> Here we can observe that:`
 
-`   1. When tenure is 1 month, the TotalCharges would be equivalent to the MonthlyCharges.`
+`1. When tenure is 1 month, the TotalCharges would be equivalent to the MonthlyCharges.`
 
-`   2. When tenure is 2 months or more, the TotalCharges does not necessarily equates to MonthlyCharges. I think that makes sense, if there's any additional fee imposed on customers like late payment fee or additional ad hoc services, it wouldn't be part of monthly charges.`
+`2. When tenure is 2 months or more, the TotalCharges does not necessarily equates to MonthlyCharges. I think that makes sense, if there's any additional fee imposed on customers like late payment fee or additional ad hoc services, it wouldn't be part of monthly charges.`
 
 
 `It's safe to just fill the missing values with the TotalCharges value.`
